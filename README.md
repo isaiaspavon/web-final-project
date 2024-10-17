@@ -23,8 +23,29 @@ To begin coding and make changes onto the project:
 
 1. First, go to Miro and mark your task/feature into the "In progress" section (be as specific as possible as to prevent future merge conflicts).
 
-2. Then in the terminal perform: " $ git checkout -b <name-of-branch>" You will make your changes in this branch and eventually merge back into the main branch.
+2. Then in the terminal perform: 
 
-3. Once you are finished with your feature: MAKE SURE TO SAVE (Command+S). To clarify your changes, perform: " $ git status" in your terminal to double check that your changes are ready to be staged and committed. 
+$ git checkout -b <name-of-branch> 
 
-4. Then, perform: " $ git checkout main" then perform "$ git merge <name-of-branch>" then perform " $ git pull origin main" and finally perform " $ git push origin main"
+You will make your changes in this branch and eventually merge back into the main branch.
+
+3. Once you are finished with your feature: MAKE SURE TO SAVE (Command+S). To clarify your changes, perform: 
+
+$ git status
+
+ in your terminal to double check that your changes are ready to be staged and committed. 
+
+4. Then, perform: 
+$ git checkout main
+
+then perform 
+
+$ git merge <name-of-branch>
+
+ then perform 
+ 
+ $ git pull origin main
+ 
+  and finally perform
+  
+  $ git push origin main
