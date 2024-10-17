@@ -1,9 +1,3 @@
-<React + Vite>
-
-<This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.>
-
-<Currently, two official plugins are available:>
-
 ## Instructions
 
 To initialize on your individual VS Code, insert the following commands in your terminal:
