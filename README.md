@@ -27,15 +27,18 @@ Go to Miro and mark your task/feature into the "In progress" section. Be as spec
 2. **Create a new branch**
 In your terminal run the following command:
 
+```
 $ git checkout -b <name-of-branch> 
+```
 
 You will make your changes in this branch and eventually merge back into the main branch.
 
 3. **Verify and stage branch**
 
 Once you are finished with your feature: MAKE SURE TO SAVE (Command+S). To clarify your changes, perform: 
-
+```
 $ git status
+```
 
  in your terminal to double check that your changes are ready to be staged and committed. 
 
@@ -43,16 +46,24 @@ $ git status
 
 After verifying, return to the main branch:
 
+```
 $ git checkout main
+```
 
 Merge your branch into the main branch:
 
+```
 $ git merge <name-of-branch>
+```
 
 Pull the latest changes from the main branch:
  
+ ```
  $ git pull origin main
+ ```
  
 Finally push your changes:
-  
-  $ git push origin main
+
+```  
+$ git push origin main
+```
