@@ -14,6 +14,10 @@ $ git init
 $ git remote add origin git@github.com:isaiaspavon/web-final-project.git
 ```
 
+```
+$ npm install
+```
+
 ## Coding Workflow
 
 To begin coding and make changes onto the project:
