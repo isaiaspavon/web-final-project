@@ -18,6 +18,10 @@ $ git remote add origin git@github.com:isaiaspavon/web-final-project.git
 $ npm install
 ```
 
+```
+npm install react-router-dom
+```
+
 ## Coding Workflow
 
 To begin coding and make changes onto the project:
